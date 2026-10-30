@@ -9,7 +9,7 @@ app.use(express.json());
 
 //Rota raiz
 app.get('/', (req, res) => {
-    res.send('API das pessoas');
+    res.send('Testando');
 })
 
 //Get /pessoas (retorna todas as pessoa)
