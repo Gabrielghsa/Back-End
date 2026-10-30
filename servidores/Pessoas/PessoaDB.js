@@ -52,7 +52,7 @@ function patch(id, dados, callback){
 
 //Exclui a pessoa pelo ID
 function deleteById(id, callback){
-    const indice = pessoas.findIndex(p => onabort.id === id);
+    const indice = pessoas.findIndex(p => p.id === id);
     if(indice === -1)
         return callback(false);
     pessoas.splice(indice, 1);
